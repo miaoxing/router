@@ -2,5 +2,11 @@
   "name": "@miaoxing/router",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@miaoxing/router-modal": "^1.0.0"
+  },
+  "ciDependencies": {
+    "@miaoxing/router-modal": "miaoxing/router-modal"
+  }
 }
