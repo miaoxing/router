@@ -11,6 +11,6 @@
     "@mxjs/router-modal": "^0.1.0"
   },
   "ciDependencies": {
-    "@mxjs/router-modal": "miaoxing/mxjs-router-modal"
+    "@mxjs/router-modal": "miaoxing/router-modal"
   }
 }
