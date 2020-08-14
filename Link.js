@@ -1,5 +1,5 @@
-import React from "react";
-import {Link as RouterLink} from "react-router-dom";
+import React from 'react';
+import {Link as RouterLink} from 'react-router-dom';
 import {ModalContext} from '@mxjs/router-modal';
 import {createLocation} from 'history';
 
