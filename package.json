@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/router",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
@@ -8,9 +8,9 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@mxjs/router-modal": "^0.1.1"
+    "@mxjs/router-modal": "^0.1.2"
   },
   "ciDependencies": {
-    "@mxjs/router-modal": "miaoxing/router-modal"
+    "@mxjs/router-modal": "miaoxing/mxjs-router-modal"
   }
 }
