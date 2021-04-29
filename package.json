@@ -11,6 +11,14 @@
     "@mxjs/router-modal": "^0.1.2"
   },
   "ciDependencies": {
-    "@mxjs/router-modal": "miaoxing/mxjs-router-modal"
+    "@mxjs/router-modal": "miaoxing/mxjs-router-modal",
+    "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
+    "@miaoxing/dev": "miaoxing/dev"
+  },
+  "devDependencies": {
+    "@miaoxing/dev": "^6.4.0"
+  },
+  "jest": {
+    "preset": "jest-preset-miaoxing"
   }
 }
