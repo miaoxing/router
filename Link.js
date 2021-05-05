@@ -2,8 +2,9 @@ import React from 'react';
 import {Link as RouterLink} from 'react-router-dom';
 import {ModalContext} from '@mxjs/router-modal';
 import {createLocation} from 'history';
+import PropTypes from 'prop-types';
 
-export default function Link({to, modal, autoModal, ...props}) {
+function Link({to, modal, autoModal, ...props}) {
   const location = createLocation(to, {modal});
 
   if (!autoModal) {
@@ -18,3 +19,11 @@ export default function Link({to, modal, autoModal, ...props}) {
     }}
   </ModalContext.Consumer>;
 }
+
+Link.propTypes = {
+  to: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+  modal: PropTypes.bool,
+  autoModal: PropTypes.bool,
+};
+
+export default Link;
